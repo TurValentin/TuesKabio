@@ -1,18 +1,16 @@
-import { useState } from 'react'
 import './App.css'
-import { Producto } from './components/Producto'
+import { ItemListContainer } from './components/ItemListContainer/ItemListContainer'
+import { NavBar } from './components/NavBar'
+
 
 
 
 function App() {
   return (
-    <div>
-      <Producto nombre="Fernet" precio = '$2700'  />
-      <Producto nombre="Gancia" precio = '$1800'  />
-      <Producto nombre="Vodka" precio = '$2600'  />
-      
-      
-    </div>
+    <>
+      <NavBar />
+      <ItemListContainer greeting = {'¡Bienvenidos!'}/>
+    </>
     
   )
 }
