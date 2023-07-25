@@ -1,0 +1,27 @@
+.navbar {
+    padding: 20px 30px;
+}
+
+.logo {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: white;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.botonHamburguesa {
+    border: none;
+}
+
+.botonHamburguesa:focus {
+    box-shadow: none;
+}
+
