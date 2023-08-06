@@ -1,0 +1,27 @@
+.footer_container {
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    background-color: #ececec;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-evenly;
+    align-items: baseline;
+    justify-items: end;
+    
+}
+
+.title{
+    font-size: 20px;
+}
+
+.linkConect {
+    margin-right: 7px;
+    font-size: 30px;
+}
+
+.footer_img{
+    border-radius: 5px;
+    width: 300px;
+    
+}
+

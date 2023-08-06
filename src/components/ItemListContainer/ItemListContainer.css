@@ -13,17 +13,17 @@
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
-    margin: auto;
+    margin: 20px auto;
     padding: 10px;
-    background-color: black;
     border-radius: 15px;
     max-width: 1200px;
     
   }
   
 .card {
-    width: 300px;
+    width: 250px;
     margin-bottom: 20px;
+    border: none;
 }
 
 .img {
@@ -41,4 +41,8 @@
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+}
+
+.button:hover {
+    background: #0f0f0f;
 }
