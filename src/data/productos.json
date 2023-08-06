@@ -1,0 +1,206 @@
+[
+    {
+        "id": 1,
+        "titulo": "Fernet Branca",
+        "precio": 2700,
+        "img": "fernet.jpg"
+    },
+    {
+        "id": 2,
+        "titulo": "Fernet Branca Menta",
+        "precio": 2400,
+        "img": "fernetMenta.jpg"
+    },
+    {
+        "id": 3,
+        "titulo": "Fernet 1882",
+        "precio": 2200,
+        "img": "fernet1882.jpg"
+    },
+    {
+        "id": 4,
+        "titulo": "Gancia",
+        "precio": 1900,
+        "img": "gancia.jpg"
+    },
+    {
+        "id": 5,
+        "titulo": "Vodka Smirnoff",
+        "precio": 2700,
+        "img": "smirnoff.jpg"
+    },
+    {
+        "id": 6,
+        "titulo": "Vodka Absolut",
+        "precio": 4500,
+        "img": "absolut.jpg"
+    },
+    {
+        "id": 7,
+        "titulo": "Campari",
+        "precio": 2500,
+        "img": "campari.webp"
+    },
+    {
+        "id": 8,
+        "titulo": "Cerveza Miller 330ml",
+        "precio": 500,
+        "img": "amstel.jpg"
+    },
+    {
+        "id": 9,
+        "titulo": "Cerveza Amstel Lager",
+        "precio": 1350,
+        "img": "amstelLager.jpg"
+    },
+    {
+        "id": 10,
+        "titulo": "Ron Bacardi Raspberry",
+        "precio": 3000,
+        "img": "bacardi.webp"
+    },
+    {
+        "id": 11,
+        "titulo": "Ron Bacardi Lemon",
+        "precio": 3000,
+        "img": "bacardi2.jpg"
+    },
+    {
+        "id": 12,
+        "titulo": "Bacardi x3",
+        "precio": 8800,
+        "img": "bacardiTriple.jpg"
+    },
+    {
+        "id": 13,
+        "titulo": "Whisky Black Label",
+        "precio": 18000,
+        "img": "blackLabel.jpg"
+    },
+    {
+        "id": 14,
+        "titulo": "Whisky Blue Label",
+        "precio": 98000,
+        "img": "BlueLabel.png"
+    },
+    {
+        "id": 15,
+        "titulo": "Whisky Red Label",
+        "precio": 8100,
+        "img": "redLabel.jpg"
+    },
+    {
+        "id": 16,
+        "titulo": "Cinzano Black",
+        "precio": 2000,
+        "img": "cinzanoBlack.jpg"
+    },
+    {
+        "id": 17,
+        "titulo": "Vodka Ciroc",
+        "precio": 2100,
+        "img": "cirocVodka.jpg"
+    },
+    {
+        "id": 18,
+        "titulo": "Vino Blanco Cosecha Tardía",
+        "precio": 3000,
+        "img": "cosecha.webp"
+    },
+    {
+        "id": 19,
+        "titulo": "Vino Cosecha Rosé",
+        "precio": 3200,
+        "img": "cosechaRose.webp"
+    },
+    {
+        "id": 20,
+        "titulo": "Vino Tinto Cuvelier",
+        "precio": 4300,
+        "img": "cuvelier.webp"
+    },
+    {
+        "id": 21,
+        "titulo": "Vino Tinto Callia Malbec",
+        "precio": 1100,
+        "img": "donValentin.jpg"
+    },
+    {
+        "id": 22,
+        "titulo": "Cerveza Heineken",
+        "precio": 1300,
+        "img": "heineken.jpg"
+    },
+    {
+        "id": 23,
+        "titulo": "Cerveza Quilmes",
+        "precio": 1100,
+        "img": "quilmes.jpg"
+    },
+    {
+        "id": 24,
+        "titulo": "Cerveza brahma",
+        "precio": 1200,
+        "img": "brahma.jpg"
+    },
+    {
+        "id": 25,
+        "titulo": "Vino Tinto Rutini",
+        "precio": 5020,
+        "img": "rutini.jpg"
+    },
+    {
+        "id": 26,
+        "titulo": "Vino Tinto Las Perdices",
+        "precio": 3200,
+        "img": "tintoLasPerdices.jpg"
+    },
+    {
+        "id": 27,
+        "titulo": "Vermouth La Fuerza Blanco",
+        "precio": 3840,
+        "img": "vermouth.webp"
+    },
+    {
+        "id": 28,
+        "titulo": "Vodka Finlandia",
+        "precio": 14000,
+        "img": "vodkaFinlandia.jpg"
+    },
+    {
+        "id": 29,
+        "titulo": "Vino Tinto Norton Malbec",
+        "precio": 4000,
+        "img": "nortonMalbec.jpg"
+    },
+    {
+        "id": 30,
+        "titulo": "Vino Tinto Anaia Malbec",
+        "precio": 3100,
+        "img": "anaiaMalbec.jpg"
+    },
+    {
+        "id": 31,
+        "titulo": "Vino Anaia Rose",
+        "precio": 3150,
+        "img": "anaiaRose.jpg"
+    },
+    {
+        "id": 32,
+        "titulo": "Vino Tinto Manos Negras",
+        "precio": 3500,
+        "img": "manosNegras.jpg"
+    },{
+        "id": 32,
+        "titulo": "Vino Tinto Tikal Amorio",
+        "precio": 7000,
+        "img": "tikalAlmoria.jpg"
+    }
+
+
+
+    
+
+    
+    
+]
