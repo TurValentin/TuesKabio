@@ -5,9 +5,9 @@ export default function SigamosConectados() {
     <div>
         <div className="container_conect">
             <h2 className='title'>Sigamos Conectados</h2>
-            <a href="" className="linkConect"><i class="bi bi-youtube"></i></a>
-            <a href="" className="linkConect"><i class="bi bi-instagram"></i></a>
-            <a href="" className="linkConect"><i class="bi bi-facebook"></i></a>     
+            <a href="" className="linkConect"><i className="bi bi-youtube"></i></a>
+            <a href="" className="linkConect"><i className="bi bi-instagram"></i></a>
+            <a href="" className="linkConect"><i className="bi bi-facebook"></i></a>     
         </div>
         <div className="containerPay">
             <h2 className='title'>Formas de pago</h2>

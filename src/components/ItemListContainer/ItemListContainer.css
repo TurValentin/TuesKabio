@@ -44,6 +44,23 @@
     border: none;
 }
 
+.button2 {
+    color: #000;
+    width: 35%;
+    background: #8b8080;
+    margin: 5px auto;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    border: none;
+    border-radius: 50px;
+}
+
 .button:hover {
     background: #0f0f0f;
+}
+
+.button2:hover {
+    background: #827575;
+    color: #000;
 }

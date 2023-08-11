@@ -1,6 +1,6 @@
 import ItemList from './ItemList';
 import './ItemListContainer.css'
-import { pedirProductos } from './pedirProductos';
+import { pedirProductos } from '../../data/functions/pedirProductos';
 import { useEffect, useState } from 'react'
 
 
