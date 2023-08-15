@@ -16,11 +16,11 @@ export const NavBar = () => {
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav ms-auto">
                         <Link className="nav-link" to='/'>Todos los productos</Link>
-                        <Link className="nav-link" to='/'>Vinos</Link>
-                        <Link className="nav-link" to='/'>Cervezas</Link>
-                        <Link className="nav-link" to='/'>Vodkas</Link>
-                        <Link className="nav-link" to='/'>Whiskys</Link>
-                        <Link className="nav-link" to='/'>Aperitivos</Link>
+                        <Link className="nav-link" to='/productos/Vinos'>Vinos</Link>
+                        <Link className="nav-link" to='/productos/Cervezas'>Cervezas</Link>
+                        <Link className="nav-link" to='/productos/Vodkas'>Vodkas</Link>
+                        <Link className="nav-link" to='/productos/Whiskys'>Whiskys</Link>
+                        <Link className="nav-link" to='/productos/Aperitivos'>Aperitivos</Link>
                         <CartWidget />
                     </div>
                 </div>

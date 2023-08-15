@@ -1,8 +1,18 @@
 .item-container {
    display: grid;
    grid-template-columns: 1fr 1fr;
-   width: 600px;
-   margin: auto;
+   width: 800px;
+   margin: 25px auto;
    padding: 50px;
 }
+
+.img {
+   width: 300px;
+}
+
+.volver{
+   width: 50%;
+}
+
+
 

@@ -5,6 +5,7 @@ export default function ItemDetail({item}) {
   return (
             <div className="card item-container"> 
              <img className='img' src={`/img/${item.img}`} alt={item.nombre} />
+            
                 <div className="card-body">
                  <h5 className="card-title">{item.titulo}</h5>
                  <p className="card-text">Precio: ${item.precio}.</p>
