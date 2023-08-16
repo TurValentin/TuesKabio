@@ -6,12 +6,19 @@
    padding: 50px;
 }
 
+.card-title {
+   margin-top: 55px;
+}
+
 .img {
    width: 300px;
+   margin: auto;
 }
 
 .volver{
-   width: 50%;
+   font-size: 35px;
+   font-weight: bold;
+   color: black;
 }
 
 
