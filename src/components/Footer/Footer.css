@@ -12,11 +12,13 @@
 
 .title{
     font-size: 20px;
+    font-weight: 600;
 }
 
 .linkConect {
     margin-right: 7px;
     font-size: 30px;
+    color: #000;
 }
 
 .footer_img{

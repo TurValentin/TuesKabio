@@ -26,6 +26,10 @@
     border: none;
 }
 
+.card-title  {
+    font-weight: bold;
+}
+
 .img {
     width: 250px;
     height: 200px;

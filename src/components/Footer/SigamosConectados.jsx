@@ -1,13 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function SigamosConectados() {
   return (
     <div>
         <div className="container_conect">
             <h2 className='title'>Sigamos Conectados</h2>
-            <a href="" className="linkConect"><i className="bi bi-youtube"></i></a>
-            <a href="" className="linkConect"><i className="bi bi-instagram"></i></a>
-            <a href="" className="linkConect"><i className="bi bi-facebook"></i></a>     
+            <Link className="linkConect icon" to = "/"><i className="bi bi-youtube"></i></Link>
+            <Link className="linkConect icon" to = "/"><i className="bi bi-instagram"></i></Link>
+            <Link className="linkConect icon" to = "/"><i className="bi bi-facebook"></i></Link>     
         </div>
         <div className="containerPay">
             <h2 className='title'>Formas de pago</h2>
