@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import './ItemListContainer.css'
 
 export default function Item( {producto} ) {
   return (
@@ -8,7 +9,7 @@ export default function Item( {producto} ) {
                  <h5 className="card-title">{producto.titulo}</h5>
                  <p className="card-text">Precio: ${producto.precio}.</p>
                  <Link to={`/item/${producto.id}`} className="btn btn-primary button2">Ver mas</Link>
-                 <Link to="/carrito" className="btn btn-primary button">Comprar <i className="bi bi-cart carrito"></i></Link>
+                 
                 </div>
             </div>
   )

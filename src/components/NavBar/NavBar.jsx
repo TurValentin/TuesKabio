@@ -11,7 +11,7 @@ export const NavBar = () => {
             <div className="container-fluid">
                 <Link className="navbar-brand logo" to='/'>Tues Kabio</Link>
                 <button className="navbar-toggler botonHamburguesa" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" onClick={() => setCollapsed(!collapsed)}>
-                    {collapsed ? (<span className="navbar-toggler-icon"></span>) : (<i class="bi bi-x-lg"></i>) }
+                    {collapsed ? (<span className="navbar-toggler-icon"></span>) : (<i className="bi bi-x-lg"></i>) }
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav ms-auto">
