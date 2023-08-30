@@ -4,7 +4,8 @@ import "./carrito.css";
 import { Link } from "react-router-dom";
 
 export const Carrito = () => {
-  const { carrito, precioTotal, handleVaciar } = useContext(CartContext);
+  const { carrito, precioTotal, handleVaciar, handleEliminar } =
+    useContext(CartContext);
 
   return (
     <div className="contenedor-productos">
@@ -21,6 +22,12 @@ export const Carrito = () => {
             <p className="all priceTotal">
               Precio total: ${producto.precio * producto.cantidad}
             </p>
+            <button
+              className="eliminar"
+              onClick={() => handleEliminar(producto)}
+            >
+              <i className="bi bi-trash3-fill"></i>
+            </button>
           </div>
         );
       })}
@@ -43,10 +50,10 @@ export const Carrito = () => {
           <div className="contenedor-agregar">
             <p className="agregarProductos">¿Quieres agregar productos?</p>
             <p className="arrow">
-              <i class="bi bi-arrow-right"></i>
+              <i className="bi bi-arrow-right"></i>
             </p>
             <Link className="seguirComprando" to="/">
-              Ir<i class="bi bi-bag-plus-fill"></i>
+              Ir<i className="bi bi-bag-plus-fill"></i>
             </Link>
           </div>
         </>

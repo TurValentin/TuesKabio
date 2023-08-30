@@ -30,8 +30,15 @@
 }
 
 .titleProd {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
+}
+
+.eliminar {
+    color: red;
+    font-size: 19px;
+    border: none;
+    margin: auto;
 }
 
 .contenedor-final{
@@ -47,9 +54,12 @@
 }
 
 .total{
-    font-size: 22px;
+    font-size: 19px;
     background-color: #ececec;
+    margin: auto;
     padding: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .total .totalNum{
@@ -61,11 +71,13 @@
 
 
 .buttonComprar{
-    font-size: 20px;
+    font-size: 19px;
     background-color: #ececec;
+    margin: auto;
+    padding: 15px;
     border: 0;
-    border-top-right-radius: 1rem;  
-    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 15px;  
+    border-bottom-right-radius: 15px;
 }
 
 .buttonComprar:hover{
@@ -73,7 +85,7 @@
 }
 
 .buttonVaciar {
-    font-size: 22px;
+    font-size: 19px;
     background-color: #ececec;
     border-radius: 10px;
     padding: 10px;

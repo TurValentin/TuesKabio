@@ -32,6 +32,19 @@ export const CartProvider = ({ children }) => {
     return carrito.reduce((acc, prod) => acc + prod.precio * prod.cantidad, 0);
   };
 
+  const handleEliminar = (producto) => {
+    const index = carrito.findIndex((item) => item.id === producto.id);
+    const nuevoCarrito = [...carrito];
+    if (index !== -1) {
+      if (nuevoCarrito[index].cantidad > 1) {
+        nuevoCarrito[index].cantidad -= 1;
+      } else {
+        nuevoCarrito.splice(index, 1);
+      }
+      setCarrito([...nuevoCarrito]);
+    }
+  };
+
   const handleVaciar = () => {
     return setCarrito([]);
   };
@@ -48,6 +61,7 @@ export const CartProvider = ({ children }) => {
         cantidadEnCarrito,
         precioTotal,
         handleVaciar,
+        handleEliminar,
       }}
     >
       {children}
