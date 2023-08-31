@@ -14,7 +14,6 @@ export const ItemListContainer = () => {
 
   useEffect(() => {
     const productosRef = collection(fireStore, "productos");
-
     getDocs(productosRef).then((resp) => {
       setProductos(
         resp.docs.map((doc) => {
