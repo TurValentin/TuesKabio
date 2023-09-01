@@ -26,7 +26,7 @@ export default function ItemDetail({ item }) {
         <Link to="/" className="volver">
           <i className="bi bi-arrow-left-short"></i>
         </Link>
-        <img className="imagen" src={`/img/${item.img}`} alt={item.nombre} />
+        <img className="imagen" src={`/img/${item.imagen}`} alt={item.nombre} />
       </div>
       <div className="card-body contenedor-info">
         <h5 className="card-title">{item.titulo}</h5>
