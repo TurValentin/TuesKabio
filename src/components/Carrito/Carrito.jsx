@@ -41,7 +41,9 @@ export const Carrito = () => {
             <span className="total">
               <p className="totalNum">Total: ${precioTotal()}</p>
             </span>
-            <button className="buttonComprar">Comprar ahora</button>
+            <Link to="/compra">
+              <button className="buttonComprar">Comprar ahora</button>
+            </Link>
           </div>
         </div>
       ) : (
